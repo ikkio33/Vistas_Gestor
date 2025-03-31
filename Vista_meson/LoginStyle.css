@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0000FF, #00BFFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-box {
+    flex: 1;
+    padding: 20px;
+    max-width: 300px;
+}
+
+h2 {
+    color: #0000FF;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #0000FF;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    margin-top: 15px;
+    padding:10px;
+    background: #0000FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+button:hover{
+    background:#0044ff;
+
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo-container{
+    flex: 1;
+    text-align: center;
+
+}
+
+.logo-box{
+    width: 150px;
+    background: url(/Vista_Totem/img/logo.png) no-repeat center center;
+    background-size: contain;
+}

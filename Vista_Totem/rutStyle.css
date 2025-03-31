@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.rut-display input {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Estilos específicos */
+button[name="numero"] {
+    background-color: #00aaff;
+    color: white;
+}
+
+button[name="borrar_ultimo"],
+button[name="borrar_todo"] {
+    background-color: #ff4444;
+    color: white;
+}
+
+button[name="enviar"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+button[name="cancelar"] {
+    background-color: #888;
+    color: white;
+}
+
