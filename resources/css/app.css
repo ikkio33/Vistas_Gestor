@@ -1,0 +1,17 @@
+.btn-keyboard {
+    background-color: #f1f1f1;  /* Gris */
+    color: #333;
+    font-size: 18px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.btn-keyboard:hover {
+    background-color: #007bff;  /* Azul al pasar el ratón */
+    color: white;
+}
+
+.btn-keyboard:active {
+    background-color: #dc3545;  /* Rojo al presionar */
+    color: white;
+}
